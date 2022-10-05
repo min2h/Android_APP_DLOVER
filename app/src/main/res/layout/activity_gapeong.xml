@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0ECE3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="가평군 청평호반길,북한강변길"
+            android:textColor="#000000"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/gatext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="구간 약 36.3km"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ga_map"
+            android:layout_width="338dp"
+            android:layout_height="217dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/ga_1" />
+
+        <TextView
+            android:id="@+id/gatext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="카카오지도로 보기"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/gapic"
+            android:layout_width="334dp"
+            android:layout_height="238dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/gapeong" />
+
+        <TextView
+            android:id="@+id/gatext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="코스명 : (가평군) 청평호반길,북한강변길"
+            android:textColor="#030305"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/gatext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="위치 : 가평읍 ~ 청평면"
+            android:textColor="#030305"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/gatext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="주소 : 경기도 가평군 가평읍 달전리~금대리(11.9km)\n경기도 가평군 청평면 삼회리~고성리(21.2km)"
+            android:textColor="#030305"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/gatext6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/hashtag"
+            android:text="#자라섬에서 청평호까지 북한강의 낭만 가득 찬길\n#자라섬, 남이섬, 청평호반 등의 아름다움\n
+#아침 햇살을 받아 발갛게 물드는 \n청평호의 아침 풍경\n#몽환적인 물안개 피는 모습"
+            android:textColor="#0359AE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/nearbygapeong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/hashtag"
+            android:text="근처 관광지: 자라섬, 남이섬"
+            android:textColor="#0359AE"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/gapeong_ON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="즐겨찾기 추가" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0ECE3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="파주시 자유로"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/patext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="구간 약 21km"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/pa_map"
+            android:layout_width="353dp"
+            android:layout_height="208dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/paju" />
+
+        <TextView
+            android:id="@+id/patext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="카카오지도로 보기"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/papic"
+            android:layout_width="355dp"
+            android:layout_height="207dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/paju_1" />
+
+        <TextView
+            android:id="@+id/patext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="코스명 : (파주시) 자유로"
+            android:textColor="#030305"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/patext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="위치 : 교햐동 ~ 문산읍"
+            android:textColor="#030305"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/patext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="주소 : 경기도 파주시 탄현면 필승로 369\n 오두산통일전망대"
+            android:textColor="#030305"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/patext6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/hashtag"
+            android:text="#한강과 임진강이 만나는 파주 교하동에서 임진각 자유의 다리까지 이어지는 자유로\n#철조망, 검문소가 불러일으키는 묘한 긴장감\n
+#막힘없는 도로에 뻥 뚫리는 답답한 마음\n #아름다운 노을\n자유로 파주구간은 출판도시, 헤이리마을, 임진각 등 파주의 수많은 관광명소와 직접 접해있고 교통체증도 없어 자유롭게 드라이브를 즐길 수 있다."
+            android:textColor="#0359AE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/nearbypaju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/hashtag"
+            android:text="근처 관광지: 임진각 헤이리마을"
+            android:textColor="#0359AE"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/paju_ON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="즐겨찾기 추가" />
+
+    </LinearLayout>
+
+
+</ScrollView>

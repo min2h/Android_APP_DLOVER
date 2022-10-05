@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0ECE3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/yongin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="용인시 가실벚꽃길"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/yongtext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="구간 약 4.1km"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/yong_map"
+            android:layout_width="341dp"
+            android:layout_height="198dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/yong_1" />
+
+        <TextView
+            android:id="@+id/yongtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="카카오지도로 보기"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/yongpic"
+            android:layout_width="347dp"
+            android:layout_height="173dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/yong" />
+
+        <TextView
+            android:id="@+id/yongtext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="코스명 : (용인시) 가실벚꽃길"
+            android:textColor="#030305"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/yongtext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="위치 : 에버랜드 ~ 백련사"
+            android:textColor="#030305"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/yongtext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="주소 : 경기도 용인시 처인구 포곡읍 에버랜드로"
+            android:textColor="#030305"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/yongtext6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/hashtag"
+            android:text="#자동차를 타고 봄꽃을 감상할 수 있는 명소\n#용인 8경 중 하나인 호암호수 앞산 벚꽃림
+             \n#호수 주변 왕벚나무 산책로는 감상의 백미\n
+#산길을 굽이굽이 지나 도착하는 백련사"
+            android:textColor="#0359AE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/nearbyyongin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/hashtag"
+            android:text="근처 관광지: 백련사"
+            android:textColor="#0359AE"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/yongin_ON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="즐겨찾기 추가" />
+
+    </LinearLayout>
+
+
+</ScrollView>

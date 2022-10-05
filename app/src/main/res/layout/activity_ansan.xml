@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFFDE"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0ECE3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ansan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="안산시 시화방조제길"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/ansantext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="구간 약 11km"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ansan_map"
+            android:layout_width="340dp"
+            android:layout_height="209dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/ansan_1" />
+
+        <TextView
+            android:id="@+id/ansantext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="카카오지도로 보기"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/ansanpic"
+            android:layout_width="340dp"
+            android:layout_height="224dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/ansan" />
+
+        <TextView
+            android:id="@+id/ansantext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="코스명 : (안산시) 시화방조제길"
+            android:textColor="#030305"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ansantext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="위치 : 오이도 ∼ 대부도"
+            android:textColor="#030305"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ansantext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="주소 :  경기도 안산시 단원구 대부황금로 1927 \n시화나래 조력문화관"
+            android:textColor="#030305"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ansantext6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/hashtag"
+            android:text="#오이도와 대부도 사이를 잇는 방조제 길\n#오른쪽에는 서해바다가, 왼쪽에는 시화호의 풍경이 합쳐 근사한 파노라마\n#날씨에 상관없이 언제라도 달리고 싶은 길"
+            android:textColor="#0359AE"
+            android:textSize="13sp" />
+
+
+        <TextView
+            android:id="@+id/nearbyansan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/hashtag"
+            android:text="근처 관광지: 시화나래휴게소, 시화나래조력문화관, 시화나래 조력문화관 달전망대"
+            android:textColor="#0359AE"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/ansan_ON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="즐겨찾기 추가"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

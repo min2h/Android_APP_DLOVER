@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_mypage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0ECE3">
+
+    <EditText
+        android:id="@+id/Edit_Age"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:fontFamily="@font/bm"
+        android:gravity="center"
+        android:hint="없음"
+        android:textColorHint="@android:color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_age"
+        app:layout_constraintTop_toBottomOf="@+id/Edit_Name" />
+
+    <EditText
+        android:id="@+id/Edit_Name"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:fontFamily="@font/bm"
+        android:gravity="center"
+        android:hint="없음"
+        android:textColorHint="@android:color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_car"
+        android:layout_width="68dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="차종"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/Edit_Photo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_age" />
+
+    <ImageView
+        android:id="@+id/Edit_Photo"
+        android:layout_width="120dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="68dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="이름"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/Edit_Photo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_age"
+        android:layout_width="68dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="나이"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/Edit_Photo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_name" />
+
+    <EditText
+        android:id="@+id/Edit_Car"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:fontFamily="@font/bm"
+        android:gravity="center"
+        android:hint="없음"
+        android:textColorHint="@android:color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_car"
+        app:layout_constraintTop_toBottomOf="@+id/Edit_Age" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="127dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="저장하기"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_car"
+        app:layout_constraintVertical_bias="0.746" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

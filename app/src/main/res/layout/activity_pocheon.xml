@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0ECE3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/po"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="포천시 국립수목원로"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/potext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="구간 약 11.8km"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/po_map"
+            android:layout_width="338dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/pochen_1" />
+
+        <TextView
+            android:id="@+id/potext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="카카오지도로 보기"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/pochen"
+            android:layout_width="346dp"
+            android:layout_height="211dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/pochen" />
+
+        <TextView
+            android:id="@+id/potext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="코스명 : (포천시) 국립수목원로"
+            android:textColor="#030305"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/potext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="위치 : 소홀읍 ~ 남양주 진접읍"
+            android:textColor="#030305"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/potext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="주소 : 경기도 포천시 소홀읍 광릉수목원로 509"
+            android:textColor="#030305"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/potext6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/hashtag"
+            android:text="#‘광릉수목원로’ 불리는 98번 국지도\n#구불구불 휘어지는 길을 따라 높이 솟은 거목\n
+#광릉숲은 유네스코 생활 보전 지역으로도 선정\n 조선 세조가 자신의 능으로 정해 산림보호를 명한 이래로 한국전쟁을 견디며 500년 넘게 보존돼 왔다."
+            android:textColor="#0359AE"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/nearbypocheon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/hashtag"
+            android:text="근처 관광지: 국립수목원"
+            android:textColor="#0359AE"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/pocheon_ON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="즐겨찾기 추가" />
+
+    </LinearLayout>
+
+
+</ScrollView>
